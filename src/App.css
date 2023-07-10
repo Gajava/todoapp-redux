@@ -1,0 +1,43 @@
+.App{
+  text-align:center;
+}
+.header{
+  background-color:bisque;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+align-items:center;
+justify-content:center;
+font-size:calc(10px + 2vmin);
+color:seagreen;
+}
+
+.todobtn{
+  border-radius: 25;
+  padding: 10;
+  border:"1px soild white";
+  color:aquamarine;
+  background-color:grey; 
+}
+.allTodos{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.singleTodo{
+  border-radius: 50px;
+  margin:10px;
+  background-color: salmon;
+  display:flex;
+  width:550px;
+  align-items:center;
+
+
+}
+h2{
+  color: seagreen;
+}
+.todoText{
+  text-align:start;
+  flex:1
+}
